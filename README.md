@@ -2,7 +2,15 @@
 
 # ATMEGA4809 Xplained Pro ADC basics
 
-This is an example of how to get started with the ADC on the ATMEGA4809, this is a general example which is applicable to the whole megaAVR 0-series. This is based on the application note [AN2573](#Related-Documentation).
+MegaAVR® 0-series devices feature a 10-bit successive approximation register (SAR) Analog-to-Digital Converter (ADC) and is capable of conversion rates up to 115 ksps. It features a flexible multiplexer, which allows the ADC to measure the voltage at multiplesingle-ended input pins.
+
+There are four modes we will explore in this example:
+*  ADC Free-Running mode
+*  ADC Single Conversion mode
+*  ADC Window Comparator mode
+*  ADC Sample Accumulator mode
+
+This is an example of how to get started with the ADC on the ATMEGA4809. This is based on the application note [AN2573](#Related-Documentation).
 
 ## Related Documentation
 
@@ -12,7 +20,10 @@ This is an example of how to get started with the ADC on the ATMEGA4809, this is
 ## Software Used
 
 - [MPLAB X IDE v5.40 or later](https://www.microchip.com/mplab/mplab-x-ide)
-- [Data Visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer)
+- Data Visualizer
+    - [MPLAB Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/)
+    - [Studio Data visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer)
+- [XC8 (v2.20)](https://www.microchip.com/mplab/compilers) alternativly [AVR/GNU C Compiler 5.4.0](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) can be used
 - ATmega_DFP 1.4.351 or later
 
 ## Hardware Used
@@ -21,7 +32,6 @@ This is an example of how to get started with the ADC on the ATMEGA4809, this is
 
 ## Setup
 
-* Connect the ATmega4809 Xplained Pro to your computer with a micro usb cable.
 * Port `PD6` is the ADC channel input, connect a cable here to interract with the ADC.
 
 ## Operation
@@ -30,7 +40,7 @@ This is an example of how to get started with the ADC on the ATMEGA4809, this is
 2. Connect the ATmega4809 Xplained Pro to your computer with a micro usb cable.
 3. Make sure the kit is selected as the tool to be programmed under project settings
 4. Press the make and program button to program the device.
-5. Open data visualizer under to interact with the virtual comport on the devkit
+4. Open your favorite terminal application or Data visualizer and open the serial port associated with the Xplained Pro.
 
 As mentioned in the appnote [AN2573](#Related-Documentation) you can change the voltage level of the adc input port and the approximated value will be shown over UART through data visualizer.
 
