@@ -4,18 +4,18 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.atmega4809-adc-basics-mplab",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "ADC Basics with tinyAVR 0- and 1-series, and megaAVR 0-series",
         "projectName": "atmega4809-adc-basics-mplab",
         "shortDescription": "This MPLAB X example demonstrates how to get started with the ADC on the ATmega4809",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ">=5.40"
+            "name": "MPLAB X",
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.20"
+                "semverRange": "^2.20.0"
             }
         ],
         "dfp": {
@@ -65,8 +65,13 @@
             "USART"
         ],
         "keywords": [
-            "",
-            ""
+            "LED",
+            "START",
+            "Sample Accumulation",
+            "Window Compare",
+            "Free-Running",
+            "MPLAB Data Visualizer",
+            "SAR ADC"
         ],
         "additionalData": {
             "longDescription": {
