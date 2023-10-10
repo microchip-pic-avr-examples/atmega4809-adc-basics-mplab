@@ -65,7 +65,7 @@ void usart_send_float(float number)
 {
 	char string[6];
 
-	dtostrf(number, 2, 3, string);
+	sprintf(string, "%.*f", 3, number);
 	usart_put_string(string, 5);
 	usart_put_string("V\n", 2);
 }
