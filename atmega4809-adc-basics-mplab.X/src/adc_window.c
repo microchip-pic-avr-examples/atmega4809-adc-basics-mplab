@@ -74,7 +74,7 @@ int8_t ADC_0_init()
 	// ADC0.INTCTRL = 0 << ADC_RESRDY_bp /* Result Ready Interrupt Enable: disabled */
 	//		 | 0 << ADC_WCMP_bp; /* Window Comparator Interrupt Enable: disabled */
 
-	// ADC0.MUXPOS = ADC_MUXPOS_AIN0_gc; /* ADC input pin 0 */
+	ADC0.MUXPOS = ADC_MUXPOS_AIN6_gc; /* ADC input pin 6 */
 
 	// ADC0.SAMPCTRL = 0x0 << ADC_SAMPLEN_gp; /* Sample length: 0x0 */
 
