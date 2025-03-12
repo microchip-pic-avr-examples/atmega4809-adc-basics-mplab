@@ -10,20 +10,20 @@ There are four modes we will explore in this example:
 *  ADC Window Comparator mode
 *  ADC Sample Accumulator mode
 
-This is an example of how to get started with the ADC on the ATmega4809. This is based on the application note [AN2573](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en601379).
+This is an example of how to get started with the ADC on the ATmega4809. This is based on the application note [AN2573](https://www.microchip.com/en-us/application-notes/an2573).
 
 ## Related Documentation
 
-- [AN2573 - ADC Basics with tinyAVR 0- and 1-series, and megaAVR 0-series](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en601379)
+- [AN2573 - ADC Basics with tinyAVR 0- and 1-series, and megaAVR 0-series](https://www.microchip.com/en-us/application-notes/an2573)
 - [ATmega4809 Device Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
 
 ## Software Used
 
-- [MPLAB® X IDE v6.15 or later](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB® X IDE v6.25 or later](https://www.microchip.com/mplab/mplab-x-ide)
 - [MPLAB® Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/)
 - [Studio Data Visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer)
-- [XC8 (v2.45)](https://www.microchip.com/mplab/compilers) alternatively [AVR/GNU C Compiler 5.4.0](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) can be used
-- ATmega_DFP 3.0.158 or later
+- [XC8 (v3.00)](https://www.microchip.com/mplab/compilers) alternatively [AVR/GNU C Compiler 5.4.0](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) can be used
+- ATmega_DFP 3.3.279 or later
 
 ## Hardware Used
 
@@ -42,8 +42,8 @@ This is an example of how to get started with the ADC on the ATmega4809. This is
 5. Press the make and program button to program the device.
 6. Open the desired terminal application or Data visualizer and open the serial port associated with the Xplained Pro.
 
-As mentioned in the appnote [AN2573](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en601379) you can change the voltage level of the adc input port and the approximated value will be shown over UART through data visualizer.
+As mentioned in the appnote [AN2573](https://www.microchip.com/en-us/application-notes/an2573) you can change the voltage level of the adc input port and the approximated value will be shown over UART through data visualizer.
 
 ## Conclusion
 
-We have here shown how to setup and get started with the ADC basics project. For more details about this example and how the ADC works please see the [AN2573](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en601379) Application Note.
+We have here shown how to setup and get started with the ADC basics project. For more details about this example and how the ADC works please see the [AN2573](https://www.microchip.com/en-us/application-notes/an2573) Application Note.
