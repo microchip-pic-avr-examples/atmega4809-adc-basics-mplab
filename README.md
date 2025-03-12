@@ -47,8 +47,10 @@ This is an example of how to get started with the ADC on the ATmega4809. This is
 2. Open `atmega4809-adc-basics-mplab.X` in MPLAB.
 3. Connect the ATmega4809 Xplained Pro to the computer with a micro USB cable.
 4. Make sure the kit is selected as the tool to be programmed under project settings.
+  <br><img src="images/atmega4809_xplained_pro.png" width="600">
 5. Press the make and program button to program the device.
 6. Open the desired terminal application or Data visualizer and open the serial port associated with the Xplained Pro.
+  <br><img src="images/data_visualizer.png" width="600">
 
 As mentioned in the appnote [AN2573](https://www.microchip.com/en-us/application-notes/an2573) you can change the voltage level of the adc input port and the approximated value will be shown over UART through data visualizer.
 
