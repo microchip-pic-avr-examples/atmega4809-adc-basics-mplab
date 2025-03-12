@@ -1,4 +1,12 @@
-<a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
+<!-- Please do not change this logo with link -->
+
+<a target="_blank" href="https://www.microchip.com/" id="top-of-page">
+   <picture>
+      <source media="(prefers-color-scheme: light)" srcset="images/mchp_logo_light.png" width="350">
+      <source media="(prefers-color-scheme: dark)" srcset="images/mchp_logo_dark.png" width="350">
+      <img alt="Microchip Technologies Inc." src="https://www.microchip.com/content/experience-fragments/mchp/en_us/site/header/master/_jcr_content/root/responsivegrid/header/logo.coreimg.100.300.png/1605828081463/microchip.png">
+   </picture>
+</a>
 
 # ATmega4809 Xplained Pro ADC Basics
 
