@@ -1,5 +1,6 @@
 #include <atmel_start.h>
 #include <util/delay.h>
+#include <stdio.h>
 
 #define FREE_RUNNING 1
 #define SINGLE_CONVERSION 2
