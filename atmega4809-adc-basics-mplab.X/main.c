@@ -11,7 +11,7 @@
 
 #define MAX_VOL 2.5 // VREF=2.5V
 #define RES_10BIT 0x3FF
-#define ADC_CHANNEL 6
+#define ADC_CHANNEL ADC_CHANNEL ADC_MUXPOS_AIN6_gc
 
 uint16_t adc_result = 0;
 float    calc_volt;
