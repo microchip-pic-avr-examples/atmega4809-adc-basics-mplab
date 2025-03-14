@@ -50,11 +50,11 @@ This is an example of how to get started with the ADC on the ATmega4809. This is
 3. Connect the ATmega4809 Xplained Pro to the computer with a micro USB cable.
 4. Make sure the kit is selected as the tool to be programmed under project settings.
 5. Press the **Make and Program** button to program the device.
-6. Open the desired terminal application or Data visualizer and access the serial port associated with the Xplained Pro.
+6. Open the desired terminal application or Data Visualizer and access the serial port associated with the Xplained Pro.
   <br><img src="images/data_visualizer.png" width="600">
 
 The [AN2573](https://www.microchip.com/en-us/application-notes/an2573) application note shows how to adjust the voltage level of the ADC input port, and the corresponding approximated value will be displayed via UART using the Data Visualizer.
 
 ## Conclusion
 
-We have here shown how to setup and get started with the ADC basics project. For further information about this example and the functionality of the ADC, refer to the [AN2573](https://www.microchip.com/en-us/application-notes/an2573) application note.
+We have here shown how to set up and get started with the ADC basics project. For further information about this example and the functionality of the ADC, refer to the [AN2573](https://www.microchip.com/en-us/application-notes/an2573) application note.
