@@ -20,7 +20,7 @@
         ],
         "dfp": {
             "name": "ATmega_DFP",
-            "semverRange": "^3.3.279"
+            "semverRange": "^3.4.282"
         },
         "configurator": {
             "name": "START",
