@@ -31,7 +31,7 @@ This is an example of how to get started with the ADC on the ATmega4809. This is
 - [MPLAB® Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/)
 - [Studio Data Visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer)
 - [MPLAB® XC8 (v3.00)](https://www.microchip.com/mplab/compilers) alternatively [AVR/GNU C Compiler 5.4.0](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) can be used
-- ATmega_DFP 3.3.279 or later
+- ATmega_DFP 3.4.282 or later
 
 ## Hardware Used
 
